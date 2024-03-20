@@ -1,0 +1,111 @@
+name: Autograding Tests
+'on':
+- push
+- workflow_dispatch
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Test 1 (datalake)
+      id: test-1-datalake
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Test 1 (datalake)
+        setup-command: ''
+        command: python3 src/1_datalake/autograding.py
+        timeout: 10
+        max-score: 1
+    - name: Test 2 (database)
+      id: test-2-database
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Test 2 (database)
+        setup-command: ''
+        command: python3 src/2_database/autograding.py
+        timeout: 10
+        max-score: 1
+    - name: Test 3 (pipeline)
+      id: test-3-pipeline
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Test 3 (pipeline)
+        setup-command: ''
+        command: python3 src/3_pipeline/autograding.py
+        timeout: 10
+        max-score: 1
+    - name: Test 4 (model)
+      id: test-4-model
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Test 4 (model)
+        setup-command: ''
+        command: python3 src/4_model/autograding.py
+        timeout: 10
+        max-score: 1
+    - name: Test 5 (basic web app)
+      id: test-5-basic-web-app
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Test 5 (basic web app)
+        setup-command: ''
+        command: python3 src/5_basic_web_app/autograding.py
+        timeout: 10
+        max-score: 1
+    - name: Test 6a (API client)
+      id: test-6a-api-client
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Test 6a (API client)
+        setup-command: ''
+        command: python3 src/6a_api_client/autograding.py
+        timeout: 10
+        max-score: 1
+    - name: Test 6b (API server)
+      id: test-6b-api-server
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Test 6b (API server)
+        setup-command: ''
+        command: python3 src/6b_api_server/autograding.py
+        timeout: 10
+        max-score: 1
+    - name: Test 7a (Docker API server)
+      id: test-7a-docker-api-server
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Test 7a (Docker API server)
+        setup-command: ''
+        command: python3 src/7a_docker_server/autograding.py
+        timeout: 10
+        max-score: 1
+    - name: Test 7b (Docker API client)
+      id: test-7b-docker-api-client
+      uses: education/autograding-command-grader@v1
+      with:
+        test-name: Test 7b (Docker API client)
+        setup-command: ''
+        command: python3 src/7b_docker_client/autograding.py
+        timeout: 10
+        max-score: 1
+    - name: Autograding Reporter
+      uses: education/autograding-grading-reporter@v1
+      env:
+        TEST-1-DATALAKE_RESULTS: "${{steps.test-1-datalake.outputs.result}}"
+        TEST-2-DATABASE_RESULTS: "${{steps.test-2-database.outputs.result}}"
+        TEST-3-PIPELINE_RESULTS: "${{steps.test-3-pipeline.outputs.result}}"
+        TEST-4-MODEL_RESULTS: "${{steps.test-4-model.outputs.result}}"
+        TEST-5-BASIC-WEB-APP_RESULTS: "${{steps.test-5-basic-web-app.outputs.result}}"
+        TEST-6A-API-CLIENT_RESULTS: "${{steps.test-6a-api-client.outputs.result}}"
+        TEST-6B-API-SERVER_RESULTS: "${{steps.test-6b-api-server.outputs.result}}"
+        TEST-7A-DOCKER-API-SERVER_RESULTS: "${{steps.test-7a-docker-api-server.outputs.result}}"
+        TEST-7B-DOCKER-API-CLIENT_RESULTS: "${{steps.test-7b-docker-api-client.outputs.result}}"
+      with:
+        runners: test-1-datalake,test-2-database,test-3-pipeline,test-4-model,test-5-basic-web-app,test-6a-api-client,test-6b-api-server,test-7a-docker-api-server,test-7b-docker-api-client
