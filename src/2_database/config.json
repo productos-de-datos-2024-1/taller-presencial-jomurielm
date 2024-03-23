@@ -1,0 +1,6 @@
+{
+    "create_database_log": "create_database.log",
+    "database_dir": "datalake/databases/",
+    "database_name": "house_prices.db",
+    "logs_dir": "datalake/logs/"
+}

@@ -1,0 +1,9 @@
+{
+    "logs_dir": "datalake/logs/",
+    "downsampled_dir": "datalake/downsampled_data/",
+    "train_dataset": "train_house_prices.csv.zip",
+    "test_dataset": "test_house_prices.csv.zip",
+    "models_dir": "datalake/models/",
+    "house_prices_model": "house_prices_model.pkl",
+    "train_model_log": "train_model.log"
+}

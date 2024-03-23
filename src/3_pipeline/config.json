@@ -1,0 +1,11 @@
+{
+    "logs_dir": "datalake/logs/",
+    "pipeline_log": "pipeline.log",
+    "database_dir": "datalake/databases/",
+    "database_name": "house_prices.db",
+    "stagging_dir": "datalake/raw/stagging/",
+    "ingested_dir": "datalake/raw/ingested/",
+    "downsampled_dir": "datalake/downsampled_data/",
+    "train_dataset": "train_house_prices.csv.zip",
+    "test_dataset": "test_house_prices.csv.zip"
+}
