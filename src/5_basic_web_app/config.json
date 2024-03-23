@@ -1,0 +1,6 @@
+{
+    "logs_dir": "datalake/logs/",
+    "basic_web_app_log": "basic_web_app.log",
+    "models_dir": "datalake/models/",
+    "house_prices_model": "house_prices_model.pkl"
+}

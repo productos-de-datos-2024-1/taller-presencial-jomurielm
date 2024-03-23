@@ -1,0 +1,20 @@
+2024-03-23 11:58:38,277:INFO:Starting the application
+2024-03-23 11:58:38,664:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-23 11:58:38,664:INFO:[33mPress CTRL+C to quit[0m
+2024-03-23 11:58:38,667:INFO: * Restarting with stat
+2024-03-23 11:58:44,428:INFO:Starting the application
+2024-03-23 11:58:44,458:WARNING: * Debugger is active!
+2024-03-23 11:58:44,480:INFO: * Debugger PIN: 122-877-202
+2024-03-23 12:01:38,204:INFO:127.0.0.1 - - [23/Mar/2024 12:01:38] "GET / HTTP/1.1" 200 -
+2024-03-23 12:01:38,513:INFO:127.0.0.1 - - [23/Mar/2024 12:01:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-23 12:02:24,112:INFO: * Detected change in 'C:\\Users\\johanmum\\OneDrive\\Personal\\Estudio\\Maestría - Ingeniería Analítica\\ProductosDatos\\Labs\\taller-presencial-jomurielm\\src\\5_basic_web_app\\app.py', reloading
+2024-03-23 12:02:24,314:INFO: * Restarting with stat
+2024-03-23 12:02:31,784:INFO:Starting the application
+2024-03-23 12:02:31,862:WARNING: * Debugger is active!
+2024-03-23 12:02:31,895:INFO: * Debugger PIN: 122-877-202
+2024-03-23 12:02:32,310:INFO:User values: {'bedrooms': 3.0, 'bathrooms': 1.0, 'sqft_living': 1180.0, 'sqft_lot': 5650.0, 'floors': 1.0, 'waterfront': 0, 'condition': 1}
+2024-03-23 12:02:41,301:INFO:Prediction: 155849.9
+2024-03-23 12:02:41,319:INFO:127.0.0.1 - - [23/Mar/2024 12:02:41] "POST / HTTP/1.1" 200 -
+2024-03-23 12:29:11,474:INFO:Starting the application
+2024-03-23 12:29:11,847:INFO:Starting the application
