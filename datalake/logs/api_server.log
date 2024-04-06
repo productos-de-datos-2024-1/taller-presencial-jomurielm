@@ -18,3 +18,5 @@
 2024-04-06 08:11:40,726:INFO: * Debugger PIN: 637-381-344
 2024-04-06 08:12:03,650:INFO: * Detected change in 'C:\\Users\\johanmum\\OneDrive - Universidad Nacional de Colombia\\Estudio\\UNAL_Ingenieria_Analitica\\3_Productos_Datos\\Labs\\taller-presencial-jomurielm\\src\\6b_api_server\\server.py', reloading
 2024-04-06 08:12:03,966:INFO: * Restarting with stat
+2024-04-06 08:12:11,640:WARNING: * Debugger is active!
+2024-04-06 08:12:11,659:INFO: * Debugger PIN: 637-381-344
