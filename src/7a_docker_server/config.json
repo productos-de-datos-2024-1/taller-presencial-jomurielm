@@ -1,0 +1,6 @@
+{
+    "logs_dir": "/datalake/logs/",
+    "api_server_log": "docker_api_server.log",
+    "models_dir": "/datalake/models/",
+    "house_prices_model": "house_prices_model.pkl"
+}

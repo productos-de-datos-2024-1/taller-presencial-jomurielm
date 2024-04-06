@@ -1,0 +1,5 @@
+{
+    "logs_dir": "datalake/logs/",
+    "api_client_log": "docker_api_client.log",
+    "api_server_url": "http://api-server:5000"
+}

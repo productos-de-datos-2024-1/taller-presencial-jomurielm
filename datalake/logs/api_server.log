@@ -20,3 +20,18 @@
 2024-04-06 08:12:03,966:INFO: * Restarting with stat
 2024-04-06 08:12:11,640:WARNING: * Debugger is active!
 2024-04-06 08:12:11,659:INFO: * Debugger PIN: 637-381-344
+2024-04-06 08:59:37,512:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-04-06 08:59:37,513:INFO:[33mPress CTRL+C to quit[0m
+2024-04-06 08:59:37,516:INFO: * Restarting with stat
+2024-04-06 08:59:41,604:WARNING: * Debugger is active!
+2024-04-06 08:59:41,622:INFO: * Debugger PIN: 775-327-706
+2024-04-06 09:00:33,905:INFO:User values: {'bedrooms': [3], 'bathrooms': [2], 'sqft_living': [1800], 'sqft_lot': [2200], 'floors': [1], 'waterfront': [1], 'condition': [3]}
+2024-04-06 09:00:41,933:INFO:Prediction: [1605832.10562042]
+2024-04-06 09:00:41,936:INFO:127.0.0.1 - - [06/Apr/2024 09:00:41] "POST / HTTP/1.1" 200 -
+2024-04-06 09:02:52,810:INFO:User values: {'bedrooms': [3], 'bathrooms': [2], 'sqft_living': [1800], 'sqft_lot': [2200], 'floors': [1], 'waterfront': [1], 'condition': [3]}
+2024-04-06 09:02:52,815:INFO:Prediction: [1605832.10562042]
+2024-04-06 09:02:52,816:INFO:127.0.0.1 - - [06/Apr/2024 09:02:52] "POST / HTTP/1.1" 200 -
+2024-04-06 09:19:25,735:INFO:User values: {'bedrooms': [3], 'bathrooms': [1], 'sqft_living': [1180], 'sqft_lot': [5650], 'floors': [1], 'waterfront': [0], 'condition': [1]}
+2024-04-06 09:19:25,741:INFO:Prediction: [155849.90294016]
+2024-04-06 09:19:25,742:INFO:127.0.0.1 - - [06/Apr/2024 09:19:25] "POST / HTTP/1.1" 200 -
