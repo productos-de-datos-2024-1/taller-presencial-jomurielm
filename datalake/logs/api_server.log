@@ -1,0 +1,20 @@
+2024-04-06 07:36:34,757:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-04-06 07:36:34,757:INFO:[33mPress CTRL+C to quit[0m
+2024-04-06 07:36:34,767:INFO: * Restarting with stat
+2024-04-06 07:36:40,298:WARNING: * Debugger is active!
+2024-04-06 07:36:40,322:INFO: * Debugger PIN: 637-381-344
+2024-04-06 08:04:47,261:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-04-06 08:04:47,262:INFO:[33mPress CTRL+C to quit[0m
+2024-04-06 08:04:47,274:INFO: * Restarting with stat
+2024-04-06 08:04:54,773:WARNING: * Debugger is active!
+2024-04-06 08:04:54,790:INFO: * Debugger PIN: 637-381-344
+2024-04-06 08:07:13,104:INFO:User values: {'bedrooms': [3], 'bathrooms': [2], 'sqft_living': [1800], 'sqft_lot': [2200], 'floors': [1], 'waterfront': [1], 'condition': [3]}
+2024-04-06 08:07:28,982:INFO:127.0.0.1 - - [06/Apr/2024 08:07:28] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-04-06 08:11:29,625:INFO: * Detected change in 'C:\\Users\\johanmum\\OneDrive - Universidad Nacional de Colombia\\Estudio\\UNAL_Ingenieria_Analitica\\3_Productos_Datos\\Labs\\taller-presencial-jomurielm\\src\\6b_api_server\\server.py', reloading
+2024-04-06 08:11:30,114:INFO: * Restarting with stat
+2024-04-06 08:11:40,694:WARNING: * Debugger is active!
+2024-04-06 08:11:40,726:INFO: * Debugger PIN: 637-381-344
+2024-04-06 08:12:03,650:INFO: * Detected change in 'C:\\Users\\johanmum\\OneDrive - Universidad Nacional de Colombia\\Estudio\\UNAL_Ingenieria_Analitica\\3_Productos_Datos\\Labs\\taller-presencial-jomurielm\\src\\6b_api_server\\server.py', reloading
+2024-04-06 08:12:03,966:INFO: * Restarting with stat
